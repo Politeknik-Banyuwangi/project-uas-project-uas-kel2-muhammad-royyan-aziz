@@ -60,14 +60,25 @@ class _MyLoginState extends State<MyLogin> {
                     ],
                   ),
                   SizedBox(
-                    height: 40,
+                    height: 30,
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       TextButton(
                           onPressed: () {},
                           child: Text(
                             'Sing Up',
+                            style: TextStyle(
+                              decoration: TextDecoration.underline,
+                              fontSize: 18,
+                              color: Color(0xff4c505b),
+                            ),
+                          )),
+                      TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            'Forget Password',
                             style: TextStyle(
                               decoration: TextDecoration.underline,
                               fontSize: 18,
