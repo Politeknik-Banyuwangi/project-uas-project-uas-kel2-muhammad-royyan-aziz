@@ -13,6 +13,18 @@ class _MyLoginState extends State<MyLogin> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/login.png'), fit: BoxFit.cover)),
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        body: Stack(children: [
+          Container(
+            padding: EdgeInsets.only(left: 35, top: 130),
+            child: Text(
+              'Selamat\nDatang',
+              style: TextStyle(color: Colors.white, fontSize: 33),
+            ),
+          ),
+        ]),
+      ),
     );
   }
 }
