@@ -30,6 +30,9 @@ class _MyLoginState extends State<MyLogin> {
                 TextField(
                   decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
                 ),
+                TextField(
+                  decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
+                ),
               ],
             ),
           ),
