@@ -42,6 +42,7 @@ class _MyLoginState extends State<MyLogin> {
                     height: 40,
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         'Sing in',
