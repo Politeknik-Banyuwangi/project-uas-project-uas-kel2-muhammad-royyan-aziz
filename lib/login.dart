@@ -59,6 +59,18 @@ class _MyLoginState extends State<MyLogin> {
                       ),
                     ],
                   ),
+                  Row(
+                    children: [
+                      TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            'Sing Up',
+                            style: TextStyle(
+                              decoration: TextDecoration.underline,
+                            ),
+                          )),
+                    ],
+                  ),
                 ],
               ),
             ),
