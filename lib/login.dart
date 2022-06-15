@@ -17,7 +17,7 @@ class _MyLoginState extends State<MyLogin> {
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
-            padding: EdgeInsets.only(left: 35, top: 130),
+            padding: EdgeInsets.only(left: 35, top: 100),
             child: Text(
               'Selamat\nDatang',
               style: TextStyle(color: Colors.white, fontSize: 33),
