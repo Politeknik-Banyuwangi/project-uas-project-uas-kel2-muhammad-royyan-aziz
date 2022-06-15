@@ -30,8 +30,12 @@ class _MyLoginState extends State<MyLogin> {
                 TextField(
                   decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
                 ),
+                SizedBox(
+                  height: 30,
+                ),
                 TextField(
-                  decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
+                  obscureText: true,
+                  decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Password', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
                 ),
               ],
             ),
