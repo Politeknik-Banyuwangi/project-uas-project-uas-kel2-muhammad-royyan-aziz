@@ -47,6 +47,15 @@ class _MyLoginState extends State<MyLogin> {
                         'Sing in',
                         style: TextStyle(fontSize: 27, fontWeight: FontWeight.w700),
                       ),
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: Color(0xff4c505b),
+                        child: IconButton(
+                          color: Colors.white,
+                          onPressed: () {},
+                          icon: Icon(Icons.arrow_forward),
+                        ),
+                      ),
                     ],
                   ),
                 ],
