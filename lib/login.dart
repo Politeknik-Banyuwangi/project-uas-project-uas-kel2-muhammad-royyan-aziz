@@ -59,6 +59,9 @@ class _MyLoginState extends State<MyLogin> {
                       ),
                     ],
                   ),
+                  SizedBox(
+                    height: 40,
+                  ),
                   Row(
                     children: [
                       TextButton(
@@ -67,6 +70,8 @@ class _MyLoginState extends State<MyLogin> {
                             'Sing Up',
                             style: TextStyle(
                               decoration: TextDecoration.underline,
+                              fontSize: 18,
+                              color: Color(0xff4c505b),
                             ),
                           )),
                     ],
