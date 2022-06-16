@@ -17,9 +17,9 @@ class _MyRegisterState extends State<MyRegister> {
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
-            padding: EdgeInsets.only(left: 35, top: 100),
+            padding: EdgeInsets.only(left: 35, top: 90),
             child: Text(
-              'Selamat\nDatang',
+              'Buat\nAkun',
               style: TextStyle(color: Colors.white, fontSize: 33),
             ),
           ),
