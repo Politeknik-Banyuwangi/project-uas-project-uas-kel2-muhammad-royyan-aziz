@@ -20,7 +20,7 @@ class _MyRegisterState extends State<MyRegister> {
             padding: EdgeInsets.only(left: 35, top: 90),
             child: Text(
               'Buat\nAkun',
-              style: TextStyle(color: Colors.white, fontSize: 33),
+              style: TextStyle(color: Colors.white, fontSize: 40),
             ),
           ),
           SingleChildScrollView(
