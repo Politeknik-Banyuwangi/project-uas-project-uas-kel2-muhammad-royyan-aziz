@@ -23,10 +23,9 @@ class _MyLoginState extends State<MyLogin> {
               image: AssetImage('assets/logo.png'),
             ),
           ),
-          SizedBox(
-            height: 100,
+          
           ),
-          Text('Selamat Datang', style: TextStyle(fontSize: 30, color: Colors.black)),
+          Text('Selamat Datang', style: TextStyle(fontSize: 30,  color: Colors.black)),
           SingleChildScrollView(
             child: Container(
               padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.5, right: 35, left: 35),
