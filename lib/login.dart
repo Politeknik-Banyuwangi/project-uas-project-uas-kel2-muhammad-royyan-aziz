@@ -43,7 +43,7 @@ class _MyLoginState extends State<MyLogin> {
                   ),
                   Card(
                     color: Colors.black,
-                    elevation: 5,
+                    elevation: 3,
                     child: Container(
                       height: 20,
                       child: InkWell(
