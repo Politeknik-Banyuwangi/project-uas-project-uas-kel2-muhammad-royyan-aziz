@@ -36,7 +36,13 @@ class _MyLoginState extends State<MyLogin> {
                   ),
                   TextField(
                     obscureText: true,
-                    decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Password', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
+                    decoration: InputDecoration(
+                      fillColor: Colors.grey.shade100,
+                      filled: true,
+                      hintText: 'Password',
+                      border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
+                      prefixIcon: Icon(Icons.person, size: 40),
+                    ),
                   ),
                   SizedBox(
                     height: 40,
