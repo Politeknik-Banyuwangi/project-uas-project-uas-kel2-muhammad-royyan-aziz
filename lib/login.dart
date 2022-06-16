@@ -29,7 +29,7 @@ class _MyLoginState extends State<MyLogin> {
               child: Column(
                 children: [
                   TextField(
-                    decoration: InputDecoration(fillColor: Colors.black.shade100, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
+                    decoration: InputDecoration(fillColor: Colors.black, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
                   ),
                   SizedBox(
                     height: 30,
