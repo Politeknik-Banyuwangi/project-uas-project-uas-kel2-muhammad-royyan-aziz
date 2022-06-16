@@ -45,7 +45,7 @@ class _MyLoginState extends State<MyLogin> {
                     color: Colors.black,
                     elevation: 5,
                     child: Container(
-                      height: 20,
+                      height: 50,
                       child: InkWell(
                         splashColor: Colors.white,
                         onTap: () {
