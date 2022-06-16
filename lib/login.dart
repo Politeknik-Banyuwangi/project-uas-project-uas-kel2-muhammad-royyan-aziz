@@ -17,7 +17,7 @@ class _MyLoginState extends State<MyLogin> {
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
-            padding: EdgeInsets.only(left: 30, top: 100),
+            padding: EdgeInsets.only(left: 50, top: 100),
             child: Image(
               height: 180,
               image: AssetImage('assets/logo.png'),
