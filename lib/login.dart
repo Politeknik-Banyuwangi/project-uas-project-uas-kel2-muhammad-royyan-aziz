@@ -17,7 +17,7 @@ class _MyLoginState extends State<MyLogin> {
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
-            padding: EdgeInsets.only(left: 70, top: 90),
+            padding: EdgeInsets.only(left: 70, top: 80),
             child: Image(
               height: 180,
               image: AssetImage('assets/logo.png'),
@@ -48,7 +48,7 @@ class _MyLoginState extends State<MyLogin> {
                       filled: true,
                       hintText: 'Password',
                       border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-                      prefixIcon: Icon(Icons.person, size: 40),
+                      prefixIcon: Icon(Icons.lock, size: 40),
                     ),
                   ),
                   SizedBox(
