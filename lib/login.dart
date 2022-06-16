@@ -12,13 +12,14 @@ class _MyLoginState extends State<MyLogin> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/akun1.jpg'), fit: BoxFit.cover)),
+      decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/background.jpeg'), fit: BoxFit.cover)),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
             padding: EdgeInsets.only(left: 35, top: 100),
             child: Image(
+              height: 100,
               image: AssetImage('assets/logo.png'),
             ),
           ),
