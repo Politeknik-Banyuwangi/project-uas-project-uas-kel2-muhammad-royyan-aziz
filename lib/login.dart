@@ -48,7 +48,9 @@ class _MyLoginState extends State<MyLogin> {
                       height: 20,
                       child: InkWell(
                         splashColor: Colors.white,
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushNamed(context, 'register');
+                        },
                         child: Center(
                           child: Text('Login', style: TextStyle(fontSize: 20, color: Colors.white)),
                         ),
