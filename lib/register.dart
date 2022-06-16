@@ -20,7 +20,7 @@ class _MyRegisterState extends State<MyRegister> {
             padding: EdgeInsets.only(left: 35, top: 70),
             child: Text(
               'Buat\nAkun',
-              style: TextStyle(color: Colors.white, fontSize: 45),
+              style: TextStyle(color: Colors.black, fontSize: 45),
             ),
           ),
           SingleChildScrollView(
@@ -56,10 +56,10 @@ class _MyRegisterState extends State<MyRegister> {
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
-                        borderSide: BorderSide(color: Colors.white),
+                        borderSide: BorderSide(color: Colors.black),
                       ),
                       hintText: 'Email',
-                      hintStyle: TextStyle(color: Colors.white),
+                      hintStyle: TextStyle(color: Colors.black),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
