@@ -18,9 +18,8 @@ class _MyLoginState extends State<MyLogin> {
         body: Stack(children: [
           Container(
             padding: EdgeInsets.only(left: 35, top: 100),
-            child: Text(
-              'Selamat\nDatang',
-              style: TextStyle(color: Colors.white, fontSize: 33),
+            child: Image(
+              image: AssetImage('assets/logo.png'),
             ),
           ),
           SingleChildScrollView(
