@@ -49,14 +49,41 @@ class _MyRegisterState extends State<MyRegister> {
                     height: 30,
                   ),
                   TextField(
-                    decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Email', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
+                    decoration: InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(color: Colors.white),
+                      ),
+                      hintText: 'Email',
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                    ),
                   ),
                   SizedBox(
                     height: 30,
                   ),
                   TextField(
-                    obscureText: true,
-                    decoration: InputDecoration(fillColor: Colors.grey.shade100, filled: true, hintText: 'Password', border: OutlineInputBorder(borderRadius: BorderRadius.circular(10))),
+                    decoration: InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(color: Colors.black),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                        borderSide: BorderSide(color: Colors.white),
+                      ),
+                      hintText: 'Password',
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                    ),
                   ),
                   SizedBox(
                     height: 40,
