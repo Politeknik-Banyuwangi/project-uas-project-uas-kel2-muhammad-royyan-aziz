@@ -24,7 +24,7 @@ class _MyLoginState extends State<MyLogin> {
             ),
           ),
           SizedBox(
-            height: 30,
+            height: 100,
           ),
           Text('Selamat Datang', style: TextStyle(fontSize: 30, color: Colors.black)),
           SingleChildScrollView(
