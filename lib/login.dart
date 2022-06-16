@@ -19,7 +19,7 @@ class _MyLoginState extends State<MyLogin> {
           Container(
             padding: EdgeInsets.only(left: 35, top: 100),
             child: Image(
-              height: 100,
+              height: 200,
               image: AssetImage('assets/logo.png'),
             ),
           ),
