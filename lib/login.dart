@@ -17,16 +17,16 @@ class _MyLoginState extends State<MyLogin> {
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
-            padding: EdgeInsets.only(left: 70, top: 60),
+            padding: EdgeInsets.only(left: 70, top: 40),
             child: Image(
               height: 180,
               image: AssetImage('assets/logo.png'),
             ),
-            Text('Selamat Datang', style: TextStyle(fontSize: 30, color: Colors.black)),
           ),
           SizedBox(
             height: 100,
           ),
+          Text('Selamat Datang', style: TextStyle(fontSize: 30, color: Colors.black)),
           SingleChildScrollView(
             child: Container(
               padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.5, right: 35, left: 35),
