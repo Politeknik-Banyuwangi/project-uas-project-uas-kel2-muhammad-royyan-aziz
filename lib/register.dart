@@ -17,10 +17,10 @@ class _MyRegisterState extends State<MyRegister> {
         backgroundColor: Colors.transparent,
         body: Stack(children: [
           Container(
-            padding: EdgeInsets.only(left: 35, top: 90),
+            padding: EdgeInsets.only(left: 35, top: 80),
             child: Text(
               'Buat\nAkun',
-              style: TextStyle(color: Colors.white, fontSize: 40),
+              style: TextStyle(color: Colors.white, fontSize: 45),
             ),
           ),
           SingleChildScrollView(
