@@ -57,35 +57,6 @@ class _MyLoginState extends State<MyLogin> {
                       ),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        'Sing in',
-                        style: TextStyle(fontSize: 27, fontWeight: FontWeight.w700),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      TextButton(
-                          onPressed: () {
-                            Navigator.pushNamed(context, 'register');
-                          },
-                          child: Text(
-                            'Sing Up',
-                            style: TextStyle(
-                              decoration: TextDecoration.underline,
-                              fontSize: 18,
-                              color: Color(0xff4c505b),
-                            ),
-                          )),
-                    ],
-                  ),
                 ],
               ),
             ),
