@@ -25,7 +25,6 @@ class _MyLoginState extends State<MyLogin> {
           ),
           SingleChildScrollView(
             child: Container(
-              padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.5, right: 35, left: 35),
               child: Column(
                 children: [
                   TextField(
