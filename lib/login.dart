@@ -25,6 +25,7 @@ class _MyLoginState extends State<MyLogin> {
           ),
           SingleChildScrollView(
             child: Container(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.5, right: 35, left: 35),
               child: Column(
                 children: [
                   TextField(
@@ -66,8 +67,7 @@ class _MyLoginState extends State<MyLogin> {
                         child: Center(
                           child: Text('Login', style: TextStyle(fontSize: 20, color: Colors.white)),
                         ),
-                        child: Padding(
-                          padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
+                        
                         ),
                       ),
                     ),
