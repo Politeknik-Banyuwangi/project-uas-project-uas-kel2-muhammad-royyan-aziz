@@ -12,7 +12,7 @@ class _MyRegisterState extends State<MyRegister> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/akun2.jpg'), fit: BoxFit.cover)),
+      decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/register.jpeg'), fit: BoxFit.cover)),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Stack(children: [

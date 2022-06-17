@@ -23,7 +23,6 @@ class _MyLoginState extends State<MyLogin> {
               image: AssetImage('assets/logo.png'),
             ),
           ),
-          Text('gupuh'),
           SingleChildScrollView(
             child: Container(
               padding: EdgeInsets.only(top: MediaQuery.of(context).size.height * 0.5, right: 35, left: 35),
