@@ -67,8 +67,6 @@ class _MyLoginState extends State<MyLogin> {
                         child: Center(
                           child: Text('Login', style: TextStyle(fontSize: 20, color: Colors.white)),
                         ),
-                        
-                        ),
                       ),
                     ),
                   ),
