@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projectuas/login.dart';
 import 'package:projectuas/register.dart';
+import 'package:projectuas/profilescreen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -8,7 +9,8 @@ void main() {
     initialRoute: 'login',
     routes: {
       'login': (context) => MyLogin(),
-      'register': (context) => MyRegister()
+      'register': (context) => MyRegister(),
+      'profilescreen': (context) => ProfileScreen()
     },
   ));
 }
