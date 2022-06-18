@@ -35,7 +35,7 @@ class ProfileScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Icon(
-                        Icons.home,
+                        Icons.alarm,
                         color: Colors.white,
                       ),
                       Icon(
@@ -237,12 +237,12 @@ class ProfileScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
           ),
-        )
+        ),
       ],
     );
   }
