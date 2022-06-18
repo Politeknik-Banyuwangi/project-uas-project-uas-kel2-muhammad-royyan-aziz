@@ -64,6 +64,25 @@ class _MyRegisterState extends State<MyRegister> {
                     ),
                   ),
                 ),
+                Card(
+                  margin: EdgeInsets.all(8.0),
+                  child: InkWell(
+                    onTap: () {},
+                    splashColor: Colors.yellow,
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: <Widget>[
+                          Icon(Icons.qr_code_scanner_rounded, size: 100),
+                          Text(
+                            "Scanner",
+                            style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
               ])),
         ]),
       ),
