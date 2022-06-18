@@ -24,7 +24,7 @@ class _MyRegisterState extends State<MyRegister> {
             ),
           ),
           Container(
-              padding: EdgeInsets.only(left: 30, top: 200),
+              padding: EdgeInsets.only(left: 40, top: 200),
               child: GridView.count(crossAxisCount: 2, children: <Widget>[
                 Card(
                   margin: EdgeInsets.all(8.0),
