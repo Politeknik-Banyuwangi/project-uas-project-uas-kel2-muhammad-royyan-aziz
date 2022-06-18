@@ -17,7 +17,7 @@ class _MyRegisterState extends State<MyRegister> {
       style: optionStyle,
     ),
     Text(
-      'Index 1: Business',
+      'Index 1: login',
       style: optionStyle,
     ),
     Text(
