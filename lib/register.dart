@@ -36,7 +36,10 @@ class _MyRegisterState extends State<MyRegister> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: <Widget>[
                           Icon(Icons.emoji_people, size: 100),
-                          Text("Profil"),
+                          Text(
+                            "Profil",
+                            style: TextStyle(color: Colors.black, fontSize: 5, fontWeight: FontWeight.bold),
+                          ),
                         ],
                       ),
                     ),
