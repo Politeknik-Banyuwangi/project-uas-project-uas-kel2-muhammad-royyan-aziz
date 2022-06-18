@@ -27,6 +27,23 @@ class _MyRegisterState extends State<MyRegister> {
               padding: EdgeInsets.only(left: 35, top: 200),
               child: GridView.count(crossAxisCount: 2, children: <Widget>[
                 Card(
+                  margin: EdgeInsets.all(8.0),
+                  child: InkWell(
+                    onTap: () {},
+                    splashColor: Colors.yellow,
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: <Widget>[
+                          Text("FlutLab is on your service!"),
+                          Icon(Icons.mood),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.all(8.0),
                   child: InkWell(
                     onTap: () {},
                     splashColor: Colors.yellow,
