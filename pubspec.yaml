@@ -51,6 +51,7 @@ flutter:
     - assets/
     - assets/logo.png
     
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -65,13 +66,16 @@ flutter:
   # example:
    fonts:
     - family: AquinoDemo
-       assets/fonts/AquinoDemo.ttf
+      fonts:
+        - asset: fonts/AquinoDemo.ttf
 
     - family: Nisebuschgardens
-       assets/fonts/Nisebuschgardens.ttf
+      fonts:
+        - asset: fonts/Nisebuschgardens.ttf
 
     - family: Nunito
-       assets/fonts/NunitoBold.ttf
+      fonts:
+        - asset: fonts/NunitoBold.ttf
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
