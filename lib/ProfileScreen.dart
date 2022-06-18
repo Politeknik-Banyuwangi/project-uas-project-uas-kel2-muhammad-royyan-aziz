@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 
 class ProfileScreen extends StatelessWidget {
   @override
@@ -33,11 +32,11 @@ class ProfileScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Icon(
-                        AntDesign.arrowleft,
+                        Icons.home,
                         color: Colors.white,
                       ),
                       Icon(
-                        AntDesign.logout,
+                        Icons.home,
                         color: Colors.white,
                       ),
                     ],
@@ -160,7 +159,7 @@ class ProfileScreen extends StatelessWidget {
                               top: 110,
                               right: 20,
                               child: Icon(
-                                AntDesign.setting,
+                                Icons.home,
                                 color: Colors.grey[700],
                                 size: 30,
                               ),
