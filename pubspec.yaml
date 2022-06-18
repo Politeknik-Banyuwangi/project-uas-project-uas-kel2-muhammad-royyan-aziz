@@ -19,10 +19,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-   cupertino_icons: ^1.0.0
+   cupertino_icons: ^1.0.5
    device_preview: ^0.4.8
-   flutter_vector_icons: ^0.2.1
-   material_design_icons_flutter: ^5.0.6595
+   
 
 dev_dependencies:
   flutter_test:
