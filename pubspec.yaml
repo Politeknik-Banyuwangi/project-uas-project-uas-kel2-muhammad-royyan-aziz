@@ -64,18 +64,7 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-   fonts:
-    - family: AquinoDemo
-      fonts:
-        - asset: fonts/AquinoDemo.ttf
-
-    - family: Nisebuschgardens
-      fonts:
-        - asset: fonts/Nisebuschgardens.ttf
-
-    - family: Nunito
-      fonts:
-        - asset: fonts/NunitoBold.ttf
+   
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

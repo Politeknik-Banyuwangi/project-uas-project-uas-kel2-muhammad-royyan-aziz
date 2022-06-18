@@ -53,7 +53,7 @@ class ProfileScreen extends StatelessWidget {
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 34,
-                      fontFamily: 'Nisebuschgardens',
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(
@@ -88,7 +88,7 @@ class ProfileScreen extends StatelessWidget {
                                       'Jhone Doe',
                                       style: TextStyle(
                                         color: Color.fromRGBO(39, 105, 171, 1),
-                                        fontFamily: 'Nunito',
+                                        fontWeight: FontWeight.bold,
                                         fontSize: 37,
                                       ),
                                     ),
@@ -104,7 +104,7 @@ class ProfileScreen extends StatelessWidget {
                                               'Orders',
                                               style: TextStyle(
                                                 color: Colors.grey[700],
-                                                fontFamily: 'Nunito',
+                                                fontWeight: FontWeight.bold,
                                                 fontSize: 25,
                                               ),
                                             ),
@@ -112,7 +112,7 @@ class ProfileScreen extends StatelessWidget {
                                               '10',
                                               style: TextStyle(
                                                 color: Color.fromRGBO(39, 105, 171, 1),
-                                                fontFamily: 'Nunito',
+                                                fontWeight: FontWeight.bold,
                                                 fontSize: 25,
                                               ),
                                             ),
@@ -138,7 +138,7 @@ class ProfileScreen extends StatelessWidget {
                                               'Pending',
                                               style: TextStyle(
                                                 color: Colors.grey[700],
-                                                fontFamily: 'Nunito',
+                                                fontWeight: FontWeight.bold,
                                                 fontSize: 25,
                                               ),
                                             ),
@@ -146,7 +146,7 @@ class ProfileScreen extends StatelessWidget {
                                               '1',
                                               style: TextStyle(
                                                 color: Color.fromRGBO(39, 105, 171, 1),
-                                                fontFamily: 'Nunito',
+                                                fontWeight: FontWeight.bold,
                                                 fontSize: 25,
                                               ),
                                             ),
@@ -174,7 +174,7 @@ class ProfileScreen extends StatelessWidget {
                               child: Center(
                                 child: Container(
                                   child: Image.asset(
-                                    'assets/img/profile.png',
+                                    'assets/logo.png',
                                     width: innerWidth * 0.45,
                                     fit: BoxFit.fitWidth,
                                   ),
@@ -208,7 +208,7 @@ class ProfileScreen extends StatelessWidget {
                             style: TextStyle(
                               color: Color.fromRGBO(39, 105, 171, 1),
                               fontSize: 27,
-                              fontFamily: 'Nunito',
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                           Divider(
