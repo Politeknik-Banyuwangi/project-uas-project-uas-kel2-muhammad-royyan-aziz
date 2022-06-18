@@ -20,7 +20,7 @@ class _MyRegisterState extends State<MyRegister> {
             padding: EdgeInsets.only(left: 40, top: 60),
             child: Text(
               'Selamat\nDatang',
-              style: TextStyle(color: Colors.black, fontSize: 45),
+              style: TextStyle(color: Colors.black, fontSize: 45, fontWeight: FontWeight.bold),
             ),
           ),
           Container(
