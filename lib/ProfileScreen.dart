@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:projectuas/login.dart';
+import 'package:projectuas/register.dart';
 
 class ProfileScreen extends StatelessWidget {
   @override
