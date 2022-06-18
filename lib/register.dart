@@ -38,7 +38,7 @@ class _MyRegisterState extends State<MyRegister> {
                           Icon(Icons.emoji_people, size: 100),
                           Text(
                             "Profil",
-                            style: TextStyle(color: Colors.black, fontSize: 45, fontWeight: FontWeight.bold),
+                            style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
