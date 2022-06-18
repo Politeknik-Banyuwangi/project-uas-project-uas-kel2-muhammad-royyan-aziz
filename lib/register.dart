@@ -56,7 +56,9 @@ class _MyRegisterState extends State<MyRegister> {
                     Card(
                       margin: EdgeInsets.all(8.0),
                       child: InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushNamed(context, 'profilescreen');
+                        },
                         splashColor: Colors.yellow,
                         child: Center(
                           child: Column(
