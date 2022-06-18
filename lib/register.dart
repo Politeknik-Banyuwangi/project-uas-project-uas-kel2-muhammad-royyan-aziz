@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:projectuas/login.dart';
 
 class MyRegister extends StatefulWidget {
   const MyRegister({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class _MyRegisterState extends State<MyRegister> {
   static const TextStyle optionStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
-      'login',
+      'MyLogin',
       style: optionStyle,
     ),
     Text(
@@ -21,7 +22,7 @@ class _MyRegisterState extends State<MyRegister> {
       style: optionStyle,
     ),
     Text(
-      'Index 2: School',
+      'Index 2:MyLogin',
       style: optionStyle,
     ),
   ];
