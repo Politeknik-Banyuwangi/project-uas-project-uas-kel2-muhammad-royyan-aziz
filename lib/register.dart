@@ -54,8 +54,11 @@ class _MyRegisterState extends State<MyRegister> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: <Widget>[
-                          Text("FlutLab is on your service!"),
-                          Icon(Icons.mood),
+                          Icon(Icons.qr_code_scanner_rounded, size: 100),
+                          Text(
+                            "Profil",
+                            style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
+                          ),
                         ],
                       ),
                     ),
