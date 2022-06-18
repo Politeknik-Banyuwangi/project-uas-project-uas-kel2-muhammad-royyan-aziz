@@ -73,9 +73,28 @@ class _MyRegisterState extends State<MyRegister> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: <Widget>[
-                          Icon(Icons.qr_code_scanner_rounded, size: 100),
+                          Icon(Icons.app_registration, size: 100),
                           Text(
-                            "Scanner",
+                            "Jadwal",
+                            style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.all(8.0),
+                  child: InkWell(
+                    onTap: () {},
+                    splashColor: Colors.yellow,
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: <Widget>[
+                          Icon(Icons.schedule, size: 100),
+                          Text(
+                            "Kehadiran",
                             style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                           ),
                         ],
