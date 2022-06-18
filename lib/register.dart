@@ -36,7 +36,7 @@ class _MyRegisterState extends State<MyRegister> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: <Widget>[
                           Text("FlutLab is on your service!"),
-                          Icon(Icons.mood),
+                          Icon(Icons.emoji_people, size: 70.0),
                         ],
                       ),
                     ),
