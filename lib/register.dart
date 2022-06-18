@@ -56,7 +56,7 @@ class _MyRegisterState extends State<MyRegister> {
                         children: <Widget>[
                           Icon(Icons.qr_code_scanner_rounded, size: 100),
                           Text(
-                            "Profil",
+                            "Scanner",
                             style: TextStyle(color: Colors.black, fontSize: 25, fontWeight: FontWeight.bold),
                           ),
                         ],
