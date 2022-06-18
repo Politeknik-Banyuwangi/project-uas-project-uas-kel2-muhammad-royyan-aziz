@@ -66,15 +66,15 @@ flutter:
    fonts:
     - family: AquinoDemo
       fonts:
-      - asset: assets/fonts/AquinoDemo.ttf
+      - assets/fonts/AquinoDemo.ttf
 
     - family: Nisebuschgardens
       fonts:
-      - asset: assets/fonts/Nisebuschgardens.ttf
+      - assets/fonts/Nisebuschgardens.ttf
 
     - family: Nunito
       fonts:
-      - asset: assets/fonts/NunitoBold.ttf
+      - assets/fonts/NunitoBold.ttf
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
