@@ -80,7 +80,7 @@ class _MyProfile extends State<MyProfile> {
                               right: 0,
                               child: Container(
                                 height: innerHeight * 0.72,
-                                width: innerWidth,
+                                width: innerWidth * 0.72,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(30),
                                   color: Colors.white,
