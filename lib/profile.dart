@@ -95,7 +95,7 @@ class _MyProfile extends State<MyProfile> {
                                       style: TextStyle(
                                         color: Color.fromRGBO(0, 0, 0, 1),
                                         fontWeight: FontWeight.bold,
-                                        fontSize: 20,
+                                        fontSize: 25,
                                       ),
                                     ),
                                     SizedBox(
@@ -111,7 +111,7 @@ class _MyProfile extends State<MyProfile> {
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontWeight: FontWeight.bold,
-                                                fontSize: 25,
+                                                fontSize: 20,
                                               ),
                                             ),
                                             Text(
@@ -119,7 +119,7 @@ class _MyProfile extends State<MyProfile> {
                                               style: TextStyle(
                                                 color: Color.fromRGBO(39, 105, 171, 1),
                                                 fontWeight: FontWeight.bold,
-                                                fontSize: 25,
+                                                fontSize: 20,
                                               ),
                                             ),
                                           ],
@@ -145,7 +145,7 @@ class _MyProfile extends State<MyProfile> {
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontWeight: FontWeight.bold,
-                                                fontSize: 25,
+                                                fontSize: 20,
                                               ),
                                             ),
                                             Text(
@@ -153,7 +153,7 @@ class _MyProfile extends State<MyProfile> {
                                               style: TextStyle(
                                                 color: Color.fromRGBO(39, 105, 171, 1),
                                                 fontWeight: FontWeight.bold,
-                                                fontSize: 25,
+                                                fontSize: 20,
                                               ),
                                             ),
                                           ],
