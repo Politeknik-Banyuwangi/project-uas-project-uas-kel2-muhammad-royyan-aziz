@@ -21,7 +21,7 @@ class _MyProfile extends State<MyProfile> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromRGBO(146, 156, 56, 1),
+                Color.fromRGBO(233, 233, 97, 1),
                 Color.fromRGBO(255, 248, 3, 1),
               ],
               begin: FractionalOffset.bottomCenter,
@@ -43,10 +43,12 @@ class _MyProfile extends State<MyProfile> {
                       Icon(
                         Icons.alarm,
                         color: Colors.black,
+                        size: 30,
                       ),
                       Icon(
                         Icons.home,
                         color: Colors.black,
+                        size: 30,
                       ),
                     ],
                   ),
