@@ -21,8 +21,8 @@ class _MyProfile extends State<MyProfile> {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromRGBO(4, 9, 35, 1),
-                Color.fromRGBO(39, 105, 171, 1),
+                Color.fromRGBO(85, 97, 5, 1),
+                Color.fromRGBO(193, 222, 6, 1),
               ],
               begin: FractionalOffset.bottomCenter,
               end: FractionalOffset.topCenter,
