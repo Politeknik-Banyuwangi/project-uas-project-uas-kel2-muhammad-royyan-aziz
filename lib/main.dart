@@ -7,7 +7,7 @@ import 'package:projectuas/splas.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: 'login',
+    initialRoute: 'splas',
     routes: {
       'splas': (context) => Splas(),
       'login': (context) => MyLogin(),
