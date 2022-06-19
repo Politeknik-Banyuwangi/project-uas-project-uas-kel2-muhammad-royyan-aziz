@@ -42,11 +42,11 @@ class _MyProfile extends State<MyProfile> {
                     children: [
                       Icon(
                         Icons.alarm,
-                        color: Colors.white,
+                        color: Colors.black,
                       ),
                       Icon(
                         Icons.home,
-                        color: Colors.white,
+                        color: Colors.black,
                       ),
                     ],
                   ),
@@ -57,7 +57,7 @@ class _MyProfile extends State<MyProfile> {
                     'My\nProfile',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontSize: 34,
                       fontWeight: FontWeight.bold,
                     ),
@@ -91,9 +91,9 @@ class _MyProfile extends State<MyProfile> {
                                       height: 80,
                                     ),
                                     Text(
-                                      'Jhone Doe',
+                                      'Teknik Informatika',
                                       style: TextStyle(
-                                        color: Color.fromRGBO(39, 105, 171, 1),
+                                        color: Color.fromRGBO(101, 111, 7, 1),
                                         fontWeight: FontWeight.bold,
                                         fontSize: 37,
                                       ),
@@ -107,7 +107,7 @@ class _MyProfile extends State<MyProfile> {
                                         Column(
                                           children: [
                                             Text(
-                                              'Orders',
+                                              'Matakuliah',
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontWeight: FontWeight.bold,
@@ -141,7 +141,7 @@ class _MyProfile extends State<MyProfile> {
                                         Column(
                                           children: [
                                             Text(
-                                              'Pending',
+                                              'hari',
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontWeight: FontWeight.bold,
@@ -210,7 +210,7 @@ class _MyProfile extends State<MyProfile> {
                             height: 20,
                           ),
                           Text(
-                            'My Orders',
+                            'Keterangan',
                             style: TextStyle(
                               color: Color.fromRGBO(39, 105, 171, 1),
                               fontSize: 27,
