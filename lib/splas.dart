@@ -28,8 +28,8 @@ class _SplasState extends State<Splas> {
         height: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft, colors: [
-            Color(0xFFFF800B),
-            Color(0xFFCE1010),
+            Color(0xFFFFDD835),
+            Color(0xFFFBC02D),
           ]),
         ),
         child: Column(
@@ -40,16 +40,16 @@ class _SplasState extends State<Splas> {
               children: [
                 Image.asset(
                   'assets/logo.png',
-                  height: 300.0,
-                  width: 300.0,
+                  height: 200.0,
+                  width: 200.0,
                 ),
                 Text(
-                  "A whole grocery store\n at your fingertips",
+                  "Selamat Datang\n TEKNIK INFORMATIKA",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: 18.0,
+                    fontSize: 20.0,
                   ),
                 ),
               ],
