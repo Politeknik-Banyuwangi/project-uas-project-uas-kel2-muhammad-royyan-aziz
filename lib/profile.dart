@@ -91,9 +91,9 @@ class _MyProfile extends State<MyProfile> {
                                       height: 80,
                                     ),
                                     Text(
-                                      'Teknik Informatika',
+                                      'Informatika',
                                       style: TextStyle(
-                                        color: Color.fromRGBO(101, 111, 7, 1),
+                                        color: Color.fromRGBO(0, 0, 0, 1),
                                         fontWeight: FontWeight.bold,
                                         fontSize: 37,
                                       ),
