@@ -22,7 +22,7 @@ class _MyProfile extends State<MyProfile> {
             gradient: LinearGradient(
               colors: [
                 Color.fromRGBO(255, 248, 3, 1),
-                Color.fromRGBO(255, 248, 3, 1),
+                Color.fromRGBO(146, 156, 56, 1),
               ],
               begin: FractionalOffset.bottomCenter,
               end: FractionalOffset.topCenter,
