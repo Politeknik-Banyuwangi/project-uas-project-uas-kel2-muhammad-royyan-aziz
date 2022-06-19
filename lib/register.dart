@@ -58,7 +58,7 @@ class _MyRegisterState extends State<MyRegister> {
                       margin: EdgeInsets.all(8.0),
                       child: InkWell(
                         onTap: () {
-                          Navigator.pushNamed(context, 'profilescreen');
+                          Navigator.pushNamed(context, 'profile');
                         },
                         splashColor: Colors.yellow,
                         child: Center(

@@ -3,7 +3,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:projectuas/login.dart';
 import 'package:projectuas/register.dart';
 
-class ProfileScreen extends StatelessWidget {
+class MyProfile extends StatefulWidget {
+  const MyProfile({Key? key}) : super(key: key);
+  @override
+  _MyProfile createState() => _MyProfile();
+}
+
+class _MyProfile extends State<MyProfile> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
