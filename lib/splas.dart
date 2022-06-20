@@ -49,13 +49,13 @@ class _SplasState extends State<Splas> {
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: 20.0,
+                    fontSize: 25.0,
                   ),
                 ),
               ],
             ),
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.orange),
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.black),
             ),
           ],
         ),
