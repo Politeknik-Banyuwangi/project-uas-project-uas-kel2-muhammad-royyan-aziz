@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projectuas/cekpresensi.dart';
 import 'package:projectuas/profile.dart';
 import 'package:projectuas/login.dart';
 import 'package:projectuas/register.dart';
@@ -12,7 +13,8 @@ void main() {
       'splas': (context) => Splas(),
       'login': (context) => MyLogin(),
       'register': (context) => MyRegister(),
-      'profile': (context) => MyProfile()
+      'profile': (context) => MyProfile(),
+      'cekpresensi': (context) => CekPresensi()
     },
   ));
 }

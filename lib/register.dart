@@ -15,7 +15,7 @@ class _MyRegisterState extends State<MyRegister> {
   static const TextStyle optionStyle = TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
-      'MyLogin',
+      'profile',
       style: optionStyle,
     ),
     Text(
@@ -143,16 +143,16 @@ class _MyRegisterState extends State<MyRegister> {
               label: 'Home',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.business),
-              label: 'Business',
+              icon: Icon(Icons.person),
+              label: 'Profile',
             ),
             BottomNavigationBarItem(
-              icon: Icon(Icons.school),
-              label: 'School',
+              icon: Icon(Icons.app_registration),
+              label: 'Jadwal',
             ),
           ],
           currentIndex: _selectedIndex,
-          selectedItemColor: Colors.amber[800],
+          selectedItemColor: Colors.amber[400],
           onTap: _onItemTapped,
         ),
       ),
