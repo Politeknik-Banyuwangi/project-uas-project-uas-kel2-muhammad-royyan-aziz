@@ -109,7 +109,7 @@ class _MyProfile extends State<MyProfile> {
                                         Column(
                                           children: [
                                             Text(
-                                              'Matakuliah',
+                                              'N I M',
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontWeight: FontWeight.bold,
@@ -117,7 +117,7 @@ class _MyProfile extends State<MyProfile> {
                                               ),
                                             ),
                                             Text(
-                                              '10',
+                                              '1098',
                                               style: TextStyle(
                                                 color: Color.fromRGBO(39, 105, 171, 1),
                                                 fontWeight: FontWeight.bold,
@@ -143,7 +143,7 @@ class _MyProfile extends State<MyProfile> {
                                         Column(
                                           children: [
                                             Text(
-                                              'hari',
+                                              'K e l a s',
                                               style: TextStyle(
                                                 color: Colors.grey[700],
                                                 fontWeight: FontWeight.bold,
@@ -151,7 +151,7 @@ class _MyProfile extends State<MyProfile> {
                                               ),
                                             ),
                                             Text(
-                                              '1',
+                                              '2D',
                                               style: TextStyle(
                                                 color: Color.fromRGBO(39, 105, 171, 1),
                                                 fontWeight: FontWeight.bold,

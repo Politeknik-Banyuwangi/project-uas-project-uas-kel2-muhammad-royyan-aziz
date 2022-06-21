@@ -20,7 +20,7 @@ class _MyLoginState extends State<MyLogin> {
             padding: EdgeInsets.only(left: 70, top: 40),
             child: Image(
               height: 180,
-              image: AssetImage('assets/logo.png'),
+              image: AssetImage('assets/logo2.png'),
             ),
           ),
           SingleChildScrollView(
