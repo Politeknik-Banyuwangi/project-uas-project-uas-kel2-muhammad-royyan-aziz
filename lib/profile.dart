@@ -56,7 +56,7 @@ class _MyProfile extends State<MyProfile> {
                     height: 20,
                   ),
                   Text(
-                    'My\nProfile',
+                    'M Y\nP R O F I L E',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.black,
