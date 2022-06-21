@@ -35,9 +35,9 @@ class _CekPresensiState extends State<CekPresensi> {
               right: 100.0,
               child: Column(
                 children: <Widget>[
-                  Icon(Icons.schedule, size: 100),
+                  Icon(Icons.done_outline, size: 100),
                   Text(
-                    "GoSchool",
+                    "SUDAH PRESENSI",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 32.0,
@@ -55,7 +55,7 @@ class _CekPresensiState extends State<CekPresensi> {
               child: Column(
                 children: <Widget>[
                   Text(
-                    "Welcome",
+                    "Terimakasih!",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 29.0,
@@ -65,10 +65,10 @@ class _CekPresensiState extends State<CekPresensi> {
                   ),
                   SizedBox(height: 20.0),
                   Text(
-                    "Check your assignments, and exams dates in no time on the go!",
+                    "Jangan patah semangat dan terus berjuang!",
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 16.0,
+                      fontSize: 18.0,
                       fontWeight: FontWeight.w600,
                     ),
                     textAlign: TextAlign.center,
@@ -91,7 +91,7 @@ class _CekPresensiState extends State<CekPresensi> {
                   padding: EdgeInsets.only(left: 40.0),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50.0),
-                    color: Theme.of(context).colorScheme.secondary,
+                    color: Colors.black,
                   ),
                   child: Row(
                     children: <Widget>[
