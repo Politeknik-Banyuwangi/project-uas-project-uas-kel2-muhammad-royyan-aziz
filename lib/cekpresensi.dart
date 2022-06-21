@@ -100,11 +100,11 @@ class _CekPresensiState extends State<CekPresensi> {
                           fontWeight: FontWeight.w400,
                         ),
                       ),
-                      SizedBox(width: 20.0),
+                      SizedBox(width: 25.0),
                       Icon(
                         Icons.keyboard_arrow_right,
                         color: Colors.white,
-                        size: 28.0,
+                        size: 20.0,
                       ),
                     ],
                   ),
