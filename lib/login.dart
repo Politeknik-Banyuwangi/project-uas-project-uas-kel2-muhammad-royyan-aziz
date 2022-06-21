@@ -65,7 +65,7 @@ class _MyLoginState extends State<MyLogin> {
                           Navigator.pushNamed(context, 'register');
                         },
                         child: Center(
-                          child: Text('Login', style: TextStyle(fontSize: 20, color: Colors.white)),
+                          child: Text('L o g i n', style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold)),
                         ),
                       ),
                     ),
