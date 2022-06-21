@@ -83,7 +83,7 @@ class _CekPresensiState extends State<CekPresensi> {
                   Navigator.pushNamed(context, 'register');
                 },
                 child: Container(
-                  width: 150.0,
+                  width: 200.0,
                   height: 55.0,
                   padding: EdgeInsets.only(left: 40.0),
                   decoration: BoxDecoration(
@@ -100,11 +100,11 @@ class _CekPresensiState extends State<CekPresensi> {
                           fontWeight: FontWeight.w400,
                         ),
                       ),
-                      SizedBox(width: 30.0),
+                      SizedBox(width: 20.0),
                       Icon(
                         Icons.keyboard_arrow_right,
                         color: Colors.white,
-                        size: 20.0,
+                        size: 28.0,
                       ),
                     ],
                   ),
