@@ -10,7 +10,7 @@ class _CekPresensiState extends State<CekPresensi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
+      backgroundColor: Colors.black,
       body: Container(
         height: MediaQuery.of(context).size.height,
         child: Stack(
@@ -37,7 +37,7 @@ class _CekPresensiState extends State<CekPresensi> {
                 children: <Widget>[
                   Icon(Icons.done_outline, size: 100),
                   Text(
-                    "SUDAH PRESENSI",
+                    "BERHASIL",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 32.0,
