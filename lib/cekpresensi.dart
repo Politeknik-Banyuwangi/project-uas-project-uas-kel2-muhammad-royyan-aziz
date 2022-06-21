@@ -19,7 +19,10 @@ class _CekPresensiState extends State<CekPresensi> {
               height: MediaQuery.of(context).size.height - 100,
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                color: Theme.of(context).backgroundColor,
+                gradient: LinearGradient(begin: Alignment.topRight, end: Alignment.bottomLeft, colors: [
+                  Color(0xFFFFDD835),
+                  Color(0xFFFBC02D),
+                ]),
                 borderRadius: BorderRadius.only(
                   bottomLeft: Radius.circular(50.0),
                   bottomRight: Radius.circular(50.0),
