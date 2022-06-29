@@ -45,10 +45,10 @@ class _MyProfile extends State<MyProfile> {
                         color: Colors.black,
                         onPressed: () => Navigator.pushNamed(context, 'register'),
                       ),
-                      Icon(
-                        Icons.home,
+                      IconButton(
+                        icon: Icon(Icons.home),
                         color: Colors.black,
-                        size: 30,
+                        onPressed: () => Navigator.pushNamed(context, 'register'),
                       ),
                     ],
                   ),
