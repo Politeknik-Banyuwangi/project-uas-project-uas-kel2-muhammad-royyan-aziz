@@ -40,10 +40,10 @@ class _MyProfile extends State<MyProfile> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Icon(
-                        Icons.alarm,
+                      IconButton(
+                        icon: Icon(Icons.alarm),
                         color: Colors.black,
-                        size: 30,
+                        onPressed: () => Navigator.pushNamed(context, 'register'),
                       ),
                       Icon(
                         Icons.home,
